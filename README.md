@@ -3,6 +3,8 @@
 
 # Create App binary from container image
 ## Usage
+1. Copy the file where you want to get the app binary 
+2. Call the script and follow the guide
 
 ## Lesson learned
 The execution policy of your computer might not allow running unsigned Powershell scripts because of security concerns.
