@@ -1,13 +1,22 @@
-Docker cheat sheet
+# Docker cheat sheet
 
-Stop all containers
+# Stop all containers
 docker stop $(docker ps -aq)
 
-Remove all containers
+# Remove all containers
 docker rm $(docker ps -aq)
 
-Delete all images
+# Delete all images
 docker rmi $(docker images -q)
 
-Delete all volumes
+# Delete all volumes
 docker volume rm $(docker volume ls -q)
+
+# Install Runtime on Windows
+wget -OutFile "docker-compose.yml" -Uri "https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/docker-compose.yml" | docker compose up -d
+
+# Install Runtime on Linux (Ubuntu) WITH DOCKER already installed
+wget -O docker-compose.yml https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/docker-compose.yml | docker compose up -d
+
+# Install Runtime on plain Linux (Ubunut)
+sudo su -c "bash <(wget -qO- https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/install.sh) latest" root
