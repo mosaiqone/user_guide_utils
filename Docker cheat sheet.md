@@ -59,8 +59,10 @@ Then, set the proxy also here:
 sudo nano /etc/apt/apt.conf.d/proxy
 ```
 Add (settings are Lenze specific): 
+```
 Acquire::http::proxy "http://fra4.sme.zscaler.net:10181";
 Acquire::https::proxy "http://fra4.sme.zscaler.net:10181";
+```
 
 Restart Docker
 ```sh
@@ -68,7 +70,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-with the following command you can check whether the environmental variables are set correctly:
+With the following command you can check whether the environmental variables are set correctly:
 ```sh
 sudo systemctl show docker --property Environment
 ```
