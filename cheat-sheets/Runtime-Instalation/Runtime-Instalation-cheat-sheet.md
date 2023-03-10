@@ -1,5 +1,5 @@
 ## Install NUPANO Runtime 
-** License: MIT ***
+*License: MIT*
 
 ### On Windows
 ```sh
