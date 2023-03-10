@@ -1,5 +1,5 @@
 # Hyper-V cheat sheet
-** License: MIT ***
+*License: MIT*
 
 ## Add ssh to VM on Windows
 Open terminal (on the VM) and run below commands:
