@@ -1,5 +1,5 @@
 # Docker cheat sheet
-** License: MIT ***
+* License: MIT *
 
 ## Clean-up Docker
 ### Stop all containers
