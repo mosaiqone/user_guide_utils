@@ -1,4 +1,6 @@
 # Create App binary from container image
+*License: MIT*
+
 ## Usage
 1. Copy the file where you want to get the app binary 
 2. Call the script and follow the guide
