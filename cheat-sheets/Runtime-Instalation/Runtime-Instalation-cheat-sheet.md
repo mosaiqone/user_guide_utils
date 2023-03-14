@@ -3,7 +3,7 @@
 
 ### On Windows
 ```sh
-wget -OutFile "docker-compose.yml" -Uri "https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/docker-compose.yml" && docker compose up -d
+wget -OutFile "docker-compose.yml" -Uri "https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/docker-compose.yml" | docker compose up -d
 ```
 
 ### On Linux (Ubuntu) WITH DOCKER already installed
