@@ -1,7 +1,7 @@
 # Install NUPANO Connect 
 *License: MIT*
 
-## On Linux (Debian)
+## On Linux (Ubuntu and Debian-based Linux distributions)
 
 ### Install
 **1. Add NUPANO’s official GPG key:**
