@@ -21,7 +21,7 @@ sudo apt update && sudo apt install nupano-connect
 ```
 
 
-### Update & Upgrade
+### Update
 ```sh
 sudo apt update && sudo apt upgrade nupano-connect
 ```
