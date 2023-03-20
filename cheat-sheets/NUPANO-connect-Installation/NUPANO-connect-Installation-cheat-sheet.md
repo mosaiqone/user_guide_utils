@@ -9,13 +9,6 @@
 wget -qO - https://download.nupano.com/nupano-connect.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/nupano-connect.gpg > /dev/null
 ```
 
-
-sudo apt update && sudo apt install nupano-connect Update NUPANO-Connect:
-sudo apt update && sudo apt upgrade nupano-connect Uninstall NUPANO-Connect:
-sudo apt remove nupano-connect Remove APT repository source:
-sudo rm /etc/apt/sources.list.d/nupano-connect.list Uninstall GPG key:sudo rm /etc/apt/trusted.gpg.d/nupano-connect.gpg
-
-
 **2. Set up the link to the APT repository:**
 ```sh
 echo "deb [arch=amd64] https://download.nupano.com/apt stable main" | sudo tee /etc/apt/sources.list.d/nupano-connect.list
