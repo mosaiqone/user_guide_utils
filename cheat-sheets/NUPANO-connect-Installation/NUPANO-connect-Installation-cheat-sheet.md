@@ -15,7 +15,7 @@ echo "deb [arch=amd64] https://download.nupano.com/apt stable main" | sudo tee /
 ```
 
 
-**3. Update apt sources and install NUPANO Connect**
+**3. Update APT sources and install NUPANO Connect**
 ```sh
 sudo apt update && sudo apt install nupano-connect
 ```
