@@ -40,6 +40,6 @@ sudo rm /etc/apt/sources.list.d/nupano-connect.list
 sudo rm /etc/apt/trusted.gpg.d/nupano-connect.gpg
 ```
 
-## Om Windows
+## On Windows
 1. Open a previously created machine and navigate to the Hardware menu and click on “NUPANO Connect”.
 2. Locate the downloaded installer on your PC and double click it.
