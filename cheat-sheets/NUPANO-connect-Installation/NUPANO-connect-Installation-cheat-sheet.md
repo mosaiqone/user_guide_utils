@@ -29,9 +29,14 @@ sudo apt update && sudo apt upgrade nupano-connect
 ### Uninstall
 ```sh
 sudo apt remove nupano-connect
+```
+```sh
 sudo rm /etc/apt/sources.list.d/nupano-connect.list
+```
+```sh
 sudo rm /etc/apt/trusted.gpg.d/nupano-connect.gpg
 ```
+
 
 ## On Windows
 1. Open a previously created machine, navigate to the Hardware menu and click on “NUPANO Connect”.
