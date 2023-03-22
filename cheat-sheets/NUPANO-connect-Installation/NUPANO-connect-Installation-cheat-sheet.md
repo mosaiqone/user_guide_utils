@@ -2,6 +2,7 @@
 *License: MIT*
 
 ## On Linux (Ubuntu and Debian-based Linux distributions)
+** If NUPANO Connect runs on the same machine as the NUPANO Runtime, then the auto-discovery need to be switched off in the settings page **
 
 ### Install
 **1. Add NUPANO’s official GPG key:**
