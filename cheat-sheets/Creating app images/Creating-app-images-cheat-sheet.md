@@ -1,11 +1,12 @@
 # Create App binary from container image
 *License: MIT*
 
-## Usage
+## On Windows
+### Usage
 1. Copy the file where you want to get the app binary 
 2. Call the script and follow the guide
 
-## Lesson learned
+### Lesson learned
 The execution policy of your computer might not allow running unsigned Powershell scripts because of security concerns.
 This should prevent malicious software to execute code without your permission.
 
@@ -16,3 +17,7 @@ If you encounter such an error when running the "Create container app image" scr
 
 
 
+## On Linux
+```sh
+sudo docker save <image>:<tag> | gzip > image-tag.tar.gz
+```
