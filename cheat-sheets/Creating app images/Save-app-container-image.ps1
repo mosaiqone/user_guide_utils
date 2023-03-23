@@ -1,8 +1,7 @@
 ﻿#Creates NUPANO app binary (tar.gz) from a container image for Windows
 #Linux only: docker save myimage:latest | gzip > myimage_latest.tar.gz
 
-
-Write-Host "This script creates a NUPANO app binary from a docker image in your local system" -ForegroundColor Green
+Write-Host "This script saves a Docker container image as gzipped tar archive to your local HDD prepared to upload into the App Inventory" -ForegroundColor Green
 
 #get image and tag from the user
 $ImageName = Read-Host -Prompt 'Docker image name'
@@ -36,7 +35,7 @@ else
     7zip a $Target $Source
 
     Write-Host
-    Write-Host "NUPANO app binary successfully created!" -ForegroundColor Green
+    Write-Host "NUPANO app image successfully created!" -ForegroundColor Green
     Write-Host "$($Target) is ready for upload into the App Inventory" -ForegroundColor Green
 }
 
