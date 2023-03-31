@@ -41,7 +41,7 @@ Then, set the proxy also here:
 ```sh
 sudo nano /etc/apt/apt.conf.d/proxy
 ```
-Add (settings are Lenze specific): 
+Add proxy for APT (settings are Lenze specific): 
 ```
 Acquire::http::proxy "http://fra4.sme.zscaler.net:10181";
 Acquire::https::proxy "http://fra4.sme.zscaler.net:10181";
