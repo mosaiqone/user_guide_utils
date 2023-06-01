@@ -4,22 +4,22 @@
 ## Clean-up Docker
 ### Stop all containers
 ```sh
-docker stop $(docker ps -aq)
+sudo docker stop $(sudo docker ps -aq)
 ```
 
 ### Remove all containers
 ```sh
-docker rm $(docker ps -aq)
+sudo docker rm $(sudo docker ps -aq)
 ```
 
 ### Delete all images
 ```sh
-docker rmi $(docker images -q)
+sudo docker rmi $(sudo docker images -q)
 ```
 
 ### Delete all volumes
 ```sh
-docker volume rm $(docker volume ls -q)
+sudo docker volume rm $(sudo docker volume ls -q)
 ```
 
 ## Set proxy for Docker 
