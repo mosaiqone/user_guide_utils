@@ -1,6 +1,12 @@
 # Install NUPANO Connect 
 *License: MIT*
 
+## On Windows
+1. [Download NUPANO Connect](https://nupano-connect-releases.s3.eu-central-1.amazonaws.com/NUPANO_Connect_installer_2.0.0.exe)
+2. Locate the downloaded installer on your PC and double click it.
+Alternatively NUPANO Connect can also be downloaded from a previously created machine: in the Machine Inventory, navigate to the Hardware menu of the respective machine and click on “NUPANO Connect”.
+
+
 ## On Linux (Ubuntu and Debian-based Linux distributions)
 **If NUPANO Connect runs on the same machine as the NUPANO Runtime, then the auto-discovery need to be switched off in the settings page**
 
@@ -37,8 +43,3 @@ sudo rm /etc/apt/sources.list.d/nupano-connect.list
 ```sh
 sudo rm /etc/apt/trusted.gpg.d/nupano-connect.gpg
 ```
-
-
-## On Windows
-1. Open a previously created machine, navigate to the Hardware menu and click on “NUPANO Connect”.
-2. Locate the downloaded installer on your PC and double click it.
