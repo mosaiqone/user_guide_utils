@@ -2,7 +2,7 @@
 *License: MIT*
 
 ## On Windows
-1. [Download NUPANO Connect](https://nupano-connect-releases.s3.eu-central-1.amazonaws.com/NUPANO_Connect_installer_2.0.0.exe)
+1. [Download NUPANO Connect](https://nupano-connect-releases.s3.eu-central-1.amazonaws.com/NUPANO_Connect_installer_2.0.1.exe)
 2. Locate the downloaded installer on your PC and double click it.
 Alternatively NUPANO Connect can also be downloaded from a previously created machine: in the Machine Inventory, navigate to the Hardware menu of the respective machine and click on “NUPANO Connect”.
 
