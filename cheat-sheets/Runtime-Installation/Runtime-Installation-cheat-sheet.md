@@ -8,7 +8,7 @@ wget -OutFile "docker-compose.yml" -Uri "https://nupano-runtime-setup.s3.eu-cent
 
 ## On Linux (Ubuntu) WITH DOCKER already installed
 ```sh
-wget -O docker-compose.yml https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/docker-compose.yml && docker compose up -d
+sudo wget -O docker-compose.yml https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/docker-compose.yml && sudo docker compose up -d
 ```
 
 ## On plain Linux (Ubuntu)
