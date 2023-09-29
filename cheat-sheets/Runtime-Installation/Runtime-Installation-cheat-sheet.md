@@ -17,7 +17,7 @@ The script will install Docker and asks you for Runtime parameters. Choose defau
 sudo su -c "bash <(wget -qO- https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/install.sh) latest" root
 ```
 
-## Integration in other apps-stores
+## Integration in other App Stores
 When the Runtime is integrated in other apps stores, the update is typically managed by the respective store.
 Also most stores handle one container per app. Thus, the following Docker compose file has just the Runtime and no discovery service included.
 As a result in NUPANO Connect the IP address of this Runtime need to be provided. 
