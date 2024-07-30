@@ -14,5 +14,5 @@ sudo wget -O docker-compose.yml https://nupano-runtime-setup.s3.eu-central-1.ama
 ## On plain Linux (Ubuntu)
 The script will install Docker and asks you for Runtime parameters. Choose default or set them according to your preferences.
 ```sh
-sudo su -c "bash <(wget -qO- https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/install.sh) latest" root
+sudo su -c "bash <(wget -qO- https://nupano-runtime-setup.s3.eu-central-1.amazonaws.com/files/install.sh) latest" root
 ```
