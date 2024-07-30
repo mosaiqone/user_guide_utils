@@ -4,5 +4,4 @@
  * Docker
  * Hyper-V
  * Runtime installation
- * NUPANO Connect installation
  * Create App images
