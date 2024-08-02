@@ -2,6 +2,6 @@
  Utilities for NUPANO users
 
  * Docker
- * Hyper-V
+ * Linux (incl. Hyper-V)
  * Runtime installation
  * Create App images
