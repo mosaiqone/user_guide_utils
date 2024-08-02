@@ -1,4 +1,4 @@
-# Hyper-V cheat sheet
+# Linux cheat sheet
 *License: MIT*
 
 ## Create Hyper-V VM
