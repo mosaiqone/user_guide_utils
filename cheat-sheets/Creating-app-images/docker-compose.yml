@@ -1,34 +1,25 @@
 name: nupano
 services:
-
   runtime:
     user: root #required for windows to access docker.sock
     restart: always
-    image: public.ecr.aws/nupano/nupano-runtime:latest
+    image: public.ecr.aws/nupano/nupano-runtime:3.1.0
     environment:
-      - logging.level.com.nupano=INFO #INFO or DEBUG
+      - logging.level.com.nupano=INFO
       - nupano.description.manufacturer=not specified
       - nupano.description.model-name=Generic PC
-      - nupano.description.serial-number= #default: UUID of Runtime
-      #- nupano.machine.pairing.proxy.host=
-      #- nupano.machine.pairing.proxy.port=
-      #- nupano.machine.pairing.proxy.username=
-      #- nupano.machine.pairing.proxy.password=
+      - nupano.description.serial-number= #default: Runtime id
+      #- nupano.proxy.host=
+      #- nupano.proxy.port=
+      #- nupano.proxy.username=
+      #- nupano.proxy.password=
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock   # access to docker socket
-      - nupano_data:/nupano                         # persist nupano runtime data
+      - /var/run/docker.sock:/var/run/docker.sock # access to docker socket
+      - nupano_data:/nupano # persist nupano runtime data
     networks:
       - nupano_network
     ports:
       - 61100:61100/tcp
-
-  discovery:
-    restart: always
-    image: public.ecr.aws/nupano/nupano-runtime-discovery:latest
-    network_mode: host #-> SSDP
-    environment:
-      - logging.level.com.nupano=INFO #INFO or DEBUG
-
 
 networks:
   nupano_network:
