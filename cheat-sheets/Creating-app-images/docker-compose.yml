@@ -3,7 +3,7 @@ services:
   runtime:
     user: root #required for windows to access docker.sock
     restart: always
-    image: public.ecr.aws/nupano/nupano-runtime:3.1.0
+    image: public.ecr.aws/nupano/nupano-runtime:3.1.1
     environment:
       - logging.level.com.nupano=INFO
       - nupano.description.manufacturer=not specified
