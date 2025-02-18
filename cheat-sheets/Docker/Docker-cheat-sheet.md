@@ -34,7 +34,7 @@ add the following text (please note the values are Lenze specific!!):
 [Service]
 Environment="HTTP_PROXY=http://fra4.sme.zscaler.net:10181"
 Environment="HTTPS_PROXY=http://fra4.sme.zscaler.net:10181"
-Environment="NO_PROXY=localhost, 127.0.0.0/8, ::1, *.encowayhb.lokal"
+Environment="NO_PROXY=localhost,127.0.0.0/8,::1,nat01.lenze.com"
 ```
 
 Then, set the proxy also here:
